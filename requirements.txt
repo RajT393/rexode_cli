@@ -1,0 +1,41 @@
+firebase-admin
+# === Core AI and LLMs ===
+langchain>=0.1.14
+langchain-community
+langchain-openai
+langchain-google-genai
+langchain-anthropic
+openai
+google-generativeai
+anthropic
+ollama
+
+# === Search & Web Tools ===
+duckduckgo-search
+requests
+
+# === Speech & Audio ===
+pyaudio
+speechrecognition
+pyttsx3
+playsound
+
+# === Vision & OCR ===
+pytesseract
+opencv-python
+Pillow
+
+# === Input / Automation / Accessibility ===
+keyboard
+pyautogui
+pywhatkit
+pynput
+pyperclip
+pywin32
+
+# === Utility & System ===
+python-dotenv
+schedule
+colorama
+rich
+tqdm

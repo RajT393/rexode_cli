@@ -1,0 +1,27 @@
+{
+  "free_trial": {
+    "duration_days": 30,
+    "features": "all",
+    "limitations": "Time-limited access to all features"
+  },
+  "monthly": {
+    "price": "$5",
+    "features": "all",
+    "users": 1
+  },
+  "yearly": {
+    "price": "$49",
+    "features": "all",
+    "users": 1
+  },
+  "pair": {
+    "price": "$8/month",
+    "features": "all",
+    "users": 2
+  },
+  "family": {
+    "price": "$15/month",
+    "features": "all",
+    "users": 5
+  }
+}
