@@ -11,7 +11,8 @@ anthropic
 ollama
 
 # === Search & Web Tools ===
-duckduckgo-search
+playwright
+beautifulsoup4
 requests
 
 # === Speech & Audio ===
@@ -39,3 +40,5 @@ schedule
 colorama
 rich
 tqdm
+fuzzywuzzy
+python-Levenshtein # Required for fuzzywuzzy performance

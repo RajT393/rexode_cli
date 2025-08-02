@@ -1,0 +1,1 @@
+cd C:\Users\RAJ.T\Rexode\rexode_cli && python main.py && pause

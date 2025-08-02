@@ -1,0 +1,6 @@
+{
+  "searchEngine": "duckduckgo",
+  "browser": "chrome",
+  "summarizer": "local",
+  "dangerConfirm": true
+}

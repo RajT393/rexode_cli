@@ -16,7 +16,7 @@ def notify(title, message):
         notification.message = message
         notification.send()
     except ImportError:
-        print(f"\n🔔 {title}: {message}")
+        print(f"🔔 {title}: {message}")
         try:
             if platform.system() == "Windows":
                 import winsound

@@ -1,7 +1,7 @@
 import os
 import json
 import getpass
-from main import get_machine_id
+# from main import get_machine_id # This import will be fixed later
 import firebase_admin
 from firebase_admin import credentials, firestore
 import datetime
@@ -10,7 +10,7 @@ from datetime import timedelta
 LICENSE_FILE = os.path.expanduser("~/.rexode/license.json")
 
 # Initialize Firebase
-credential_path = os.path.join(os.path.dirname(__file__), '..', 'firebase_credentials.json')
+credential_path = os.path.join(os.path.dirname(__file__), '..\', 'firebase_credentials.json')
 cred = credentials.Certificate(credential_path)
 firebase_admin.initialize_app(cred)
 db = firestore.client()
@@ -61,7 +61,8 @@ def activate_license():
         trial_duration_days = 60 
         expires_at = current_time + timedelta(days=trial_duration_days)
 
-    machine_id = get_machine_id()
+    # machine_id = get_machine_id() # This will be fixed later
+    machine_id = "temp_machine_id" # Placeholder
     update_data = {
         'activated': True,
         'machine_id': machine_id,
